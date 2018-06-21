@@ -1,0 +1,31 @@
+.MainPage {
+    margin: 0 10%;
+    text-align: center;
+}
+
+.MainPage img{
+    height: auto;
+    width: 50%;
+    border-radius: 2% 10% 2% 10% ;
+}
+.MainPage p{
+    text-align: left;
+}
+
+
+@media(min-width: 1000px) {
+    .MainPage {
+        margin: 0 10%;
+        text-align: center;
+    }
+
+    .MainPage img{
+         height: auto;
+         width: 20%;
+         border-bottom-left-radius: 10%;
+    }
+    .MainPage p{
+        text-align: left;
+    }
+
+}

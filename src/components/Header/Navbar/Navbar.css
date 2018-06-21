@@ -1,0 +1,16 @@
+.Navbar {
+    margin: 50px;
+    padding: 0;
+    list-style: none;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+
+@media(min-width: 600px) {
+    .Navbar {
+        flex-flow: row;
+    }
+
+}
